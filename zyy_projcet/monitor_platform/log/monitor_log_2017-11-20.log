@@ -1,0 +1,64 @@
+2017-11-20 12:44:38,094 - utilities.py - [line:348] - INFO - 执行sql语句:
+select medicalNum, medicalType, treatDate, conditionDescription, inHosDoctorCode, inHosDoctorName, endemicArea, treatDeptCode, treatDeptName, bunkId, inHospitalNum, credentialType, credentialNum, name, gender, birthday, race, homeAddress, companyName, clientStatus, specialpatientID, reservationType, inHospitalRoute, referralHosCode, referralHosName, linkmanName, linkmanMobile, guardianName, guardianIdType, guardianIdNo, updateBy, remark, Email, siType from V_Q210 where sentflag = '0'
+2017-11-20 12:44:38,094 - utilities.py - [line:133] - INFO - 生成报文首部:
+{
+    "busenissType": "8", 
+    "busseID": "", 
+    "clientmacAddress": "00:E0:4C:68:00:5C", 
+    "hosorgName": "cqszyy", 
+    "hosorgNum": "001", 
+    "intermediaryCode": "", 
+    "intermediaryName": "", 
+    "receiverCode": "100000001", 
+    "receiverName": "\u91cd\u5e86\u536b\u8ba1\u59d4", 
+    "recordCount": "", 
+    "sendTradeNum": "20171120124438-400057716-9401132", 
+    "senderCode": "400057716", 
+    "senderName": "\u91cd\u5e86\u5e02\u4e2d\u533b\u9662", 
+    "standardVersionCode": "version:1.0.4", 
+    "systemType": "1"
+}
+2017-11-20 12:44:38,094 - utilities.py - [line:150] - INFO - 生成报文附加信息:
+{
+    "asyncAsk": "0", 
+    "callback": "", 
+    "correlationId": "", 
+    "curDllAddr": "", 
+    "errorCode": "", 
+    "errorMsg": "", 
+    "receiverTradeNum": ""
+}
+2017-11-20 12:44:38,094 - utilities.py - [line:281] - INFO - 生成报文:
+{
+    "package": {
+        "additionInfo": {
+            "asyncAsk": "0", 
+            "callback": "", 
+            "correlationId": "", 
+            "curDllAddr": "", 
+            "errorCode": "", 
+            "errorMsg": "", 
+            "receiverTradeNum": ""
+        }, 
+        "body": [], 
+        "head": {
+            "busenissType": "8", 
+            "busseID": "Q210", 
+            "clientmacAddress": "00:E0:4C:68:00:5C", 
+            "hosorgName": "cqszyy", 
+            "hosorgNum": "001", 
+            "intermediaryCode": "", 
+            "intermediaryName": "", 
+            "receiverCode": "100000001", 
+            "receiverName": "\u91cd\u5e86\u536b\u8ba1\u59d4", 
+            "recordCount": "0", 
+            "sendTradeNum": "20171120124438-400057716-9401132", 
+            "senderCode": "400057716", 
+            "senderName": "\u91cd\u5e86\u5e02\u4e2d\u533b\u9662", 
+            "standardVersionCode": "version:1.0.4", 
+            "systemType": "1"
+        }
+    }
+}
+2017-11-20 12:44:39,181 - utilities.py - [line:194] - INFO - 收到回复:
+{"package":{"additionInfo":{"errorCode":"-9","errorMsg":"系统级异常，请联系系统管理员"},"body":[],"head":{}}}

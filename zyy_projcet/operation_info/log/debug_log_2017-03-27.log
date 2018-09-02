@@ -1,0 +1,6 @@
+
+2017-03-27 12:55:17,963 - main_process.py - [line:80] - INFO - 连接数据库成功
+2017-03-27 12:55:17,967 - main_process.py - [line:91] - INFO - 数据库连接关闭成功
+2017-03-27 12:56:31,937 - main_process.py - [line:80] - INFO - 连接数据库成功
+2017-03-27 12:56:31,937 - main_process.py - [line:51] - INFO - 执行SQL语句:select a.patient_id, b.name, a.operation_desc, a.operating_grade, a.wound_grade, a.operator,     a.operation_code, a.heal, a.anaesthesia_method, d.dept_name, a.operating_date, c.discharge_date_time     from operation a, pat_master_index b, pat_visit c, dept_dict d     where c.discharge_date_time > to_date('2017/03/01', 'yyyy/mm/dd')     and c.discharge_date_time < to_date('2017/04/01', 'yyyy/mm/dd')     and a.patient_id = c.patient_id     and c.patient_id = b.patient_id     and a.operation_dept_code = d.dept_code
+2017-03-27 12:56:31,941 - main_process.py - [line:91] - INFO - 数据库连接关闭成功

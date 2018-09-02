@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<NDEML templateVersion="1.0">
+	<header>
+		<result>
+			<success>1</success>
+			<message>成功</message>
+		</result>
+		<exportDate>2017-09-21 16:48:41</exportDate>
+		<dataType>dicInfoDown</dataType>
+		<sourceCode ref="00">国家平台</sourceCode>
+		<targetCode ref="450384582">重庆市中医院</targetCode>
+		<sourceType ref="1">国家数据中心</sourceType>
+	</header>
+	<body>
+		<bodyItem itemId="S101-01">
+			<data>
+				<dict code="1">男性</dict>
+				<dict code="2">女性</dict>
+				<dict code="9">其他</dict>
+			</data>
+			<extendData />
+		</bodyItem>
+		<bodyItem itemId="S101-02">
+			<data>
+				<dict code="1">未婚</dict>
+				<dict code="2">已婚</dict>
+				<dict code="3">丧偶</dict>
+				<dict code="4">离婚</dict>
+				<dict code="9">其他</dict>
+			</data>
+			<extendData />
+		</bodyItem>
+		<bodyItem itemId="S101-03">
+			<data>
+				<dict code="1">汉族</dict>
+				<dict code="2">蒙古族</dict>
+				<dict code="3">回族</dict>
+				<dict code="4">藏族</dict>
+				<dict code="5">维吾尔族</dict>
+				<dict code="6">苗族</dict>
+				<dict code="7">彝族</dict>
+				<dict code="8">壮族</dict>
+				<dict code="9">布依族</dict>
+				<dict code="10">朝鲜族</dict>
+				<dict code="11">满族</dict>
+				<dict code="12">侗族</dict>
+				<dict code="13">瑶族</dict>
+				<dict code="14">白族</dict>
+				<dict code="15">土家族</dict>
+				<dict code="16">哈尼族</dict>
+				<dict code="17">哈萨克族</dict>
+				<dict code="18">傣族</dict>
+				<dict code="19">黎族</dict>
+				<dict code="20">傈僳族</dict>
+				<dict code="21">佤族</dict>
+				<dict code="22">畲族</dict>
+				<dict code="23">高山族</dict>
+				<dict code="24">拉祜族</dict>
+				<dict code="25">水族</dict>
+				<dict code="26">东乡族</dict>
+				<dict code="27">纳西族</dict>
+				<dict code="28">景颇族</dict>
+				<dict code="29">柯尔克孜族</dict>
+				<dict code="30">土族</dict>
+				<dict code="31">达斡尔族</dict>
+				<dict code="32">仫佬族</dict>
+				<dict code="33">羌族</dict>
+				<dict code="34">布朗族</dict>
+				<dict code="35">撒拉族</dict>
+				<dict code="36">毛难族</dict>
+				<dict code="37">仡佬族</dict>
+				<dict code="38">锡伯族</dict>
+				<dict code="39">阿昌族</dict>
+				<dict code="40">普米族</dict>
+				<dict code="41">塔吉克族</dict>
+				<dict code="42">怒族</dict>
+				<dict code="43">乌孜别克族</dict>
+				<dict code="44">俄罗斯族</dict>
+				<dict code="45">鄂温克族</dict>
+				<dict code="46">崩龙族</dict>
+				<dict code="47">保安族</dict>
+				<dict code="48">裕固族</dict>
+				<dict code="49">京族</dict>
+				<dict code="50">塔塔尔族</dict>
+				<dict code="51">独龙族</dict>
+				<dict code="52">鄂伦春族</dict>
+				<dict code="53">赫哲族</dict>
+				<dict code="54">门巴族</dict>
+				<dict code="55">珞巴族</dict>
+				<dict code="56">基诺族</dict>
+				<dict code="98">外国血统</dict>
+				<dict code="99">其他</dict>
+			</data>
+			<extendData />
+		</bodyItem>
+		<bodyItem itemId="S101-04">
+			<data />
+			<extendData />
+		</bodyItem>
+		<bodyItem itemId="S101-05">
+			<data>
+				<dict code="1">健康或良好</dict>
+				<dict code="10">健康或良好</dict>
+				<dict code="2">一般或较弱</dict>
+				<dict code="20">一般或较弱</dict>
+				<dict code="3">有病</dict>
+				<dict code="30">有慢性病</dict>
+				<dict code="31">心血管病</dict>
+				<dict code="32">脑血管病</dict>
+				<dict code="33">慢性呼吸系统病</dict>
+				<dict code="34">慢性消化系统病</dict>
+				<dict code="35">慢性肾炎</dict>
+				<dict code="36">结核病</dict>
+				<dict code="37">糖尿病</dict>
+				<dict code="38">神经或精神疾病</dict>
+				<dict code="39">其它慢性病</dict>
+				<dict code="4">有生理缺陷</dict>
+				<dict code="40">有生理缺陷</dict>
+				<dict code="41">聋哑</dict>
+				<dict code="42">盲人</dict>
+				<dict code="43">高度近视</dict>
+				<dict code="44">其它缺陷</dict>
+				<dict code="5">残疾</dict>
+				<dict code="50">残疾</dict>
+				<dict code="51">特等残疾</dict>
+				<dict code="52">一等残疾</dict>
+				<dict code="53">二等甲级残疾</dict>
+				<dict code="54">二等乙级残疾</dict>
+				<dict code="55">三等甲级残疾</dict>
+				<dict code="56">三等乙级残疾</dict>
+				<dict code="59">其它残疾</dict>
+			</data>
+			<extendData />
+		</bodyItem>
+		<bodyItem itemId="S101-06">
+			<data>
+				<dict code="0">本人或户主</dict>
+				<dict code="1">配偶</dict>
+				<dict code="2">子</dict>
+				<dict code="3">女</dict>
+				<dict code="4">孙子、孙女或外孙子、外孙女</dict>
+				<dict code="5">父母</dict>
+				<dict code="6">祖父母或外祖父母</dict>
+				<dict code="7">兄、弟、姐、妹</dict>
+				<dict code="9">其他</dict>
+			</data>
+			<extendData />
+		</bodyItem>
+		<bodyItem itemId="S101-07">
+			<data>
+				<dict code="5-1">种植业生产人员</dict>
+				<dict code="5-2">林业生产及野生动植物保护人员</dict>
+				<dict code="5-3">畜牧业生产人员</dict>
+				<dict code="5-4">渔业生产人员</dict>
+				<dict code="5-5">水利设施管理养护人员</dict>
+				<dict code="5-9">其他</dict>
+			</data>
+			<extendData />
+		</bodyItem>
+		<bodyItem itemId="S101-08">
+			<data>
+				<dict code="231">主任医师</dict>
+				<dict code="232">副主任医师</dict>
+				<dict code="233">主治医师</dict>
+				<dict code="234">医师</dict>
+				<dict code="235">医士</dict>
+				<dict code="241">主任药师</dict>
+				<dict code="242">副主任药师</dict>
+				<dict code="243">主管药师</dict>
+				<dict code="244">药师</dict>
+				<dict code="245">药士</dict>
+				<dict code="251">主任护师</dict>
+				<dict code="252">副主任护师</dict>
+				<dict code="253">主管护师</dict>
+				<dict code="254">护师</dict>
+				<dict code="255">护士</dict>
+				<dict code="261">主任技师</dict>
+				<dict code="262">副主任技师</dict>
+				<dict code="263">主管技师</dict>
+				<dict code="264">技师</dict>
+				<dict code="265">技士</dict>
+			</data>
+			<extendData />
+		</bodyItem>
+		<bodyItem itemId="S101-09">
+			<data>
+				<dict code="1">党委书记、副书记</dict>
+				<dict code="2">院（所、站）长</dict>
+				<dict code="3">副院（所、站）长</dict>
+				<dict code="4">科室主任</dict>
+				<dict code="5">科室副主任</dict>
+				<dict code="9">其他</dict>
+			</data>
+			<extendData />
+		</bodyItem>
+		<bodyItem itemId="S101-10">
+			<data>
+				<dict code="1">一般农户</dict>
+				<dict code="2">五保户</dict>
+				<dict code="3">贫困户</dict>
+				<dict code="4">烈军属</dict>
+				<dict code="9">其他</dict>
+			</data>
+			<extendData />
+		</bodyItem>
+		<bodyItem itemId="S101-11">
+			<data>
+				<dict code="1">常住户口</dict>
+				<dict code="2">永久居住户口</dict>
+				<dict code="3">临时户口</dict>
+				<dict code="8">外籍来华人士</dict>
+				<dict code="9">其他</dict>
+			</data>
+			<extendData />
+		</bodyItem>
+		<bodyItem itemId="S101-12">
+			<data>
+				<dict code="0">正常</dict>
+				<dict code="1">迁入</dict>
+				<dict code="2">迁出</dict>
+			</data>
+			<extendData />
+		</bodyItem>
+		<bodyItem itemId="S201-01">
+			<data />
+			<extendData />
+		</bodyItem>
+		<bodyItem itemId="S201-02">
+			<data>
+				<dict code="10">中央</dict>
+				<dict code="20">省</dict>
+				<dict code="30">省辖市属（地区、州、直辖市区）</dict>
+				<dict code="40">市、地区</dict>
+				<dict code="50">县</dict>
+				<dict code="60">街道、镇、乡</dict>
+				<dict code="61">街道</dict>
+				<dict code="62">镇</dict>
+				<dict code="63">乡</dict>
+				<dict code="70">居民、村民委员会</dict>
+				<dict code="71">居民委员会</dict>
+				<dict code="72">村民委员会</dict>
+				<dict code="90">其他</dict>
+			</data>
+			<extendData />
+		</bodyItem>
+		<bodyItem itemId="S201-03">
+			<data>
+				<dict code="1102">鼻科专业</dict>
+				<dict code="1103">咽喉科专业</dict>
+				<dict code="1199">其他</dict>
+				<dict code="12">口腔科</dict>
+				<dict code="1201">口腔内科专业</dict>
+				<dict code="1202">口腔颌面外科专业</dict>
+				<dict code="1203">正畸专业</dict>
+				<dict code="1204">口腔修复专业</dict>
+				<dict code="1205">口腔预防保健专业</dict>
+				<dict code="1299">其他</dict>
+				<dict code="13">皮肤科</dict>
+				<dict code="1301">皮肤病专业</dict>
+				<dict code="1302">性传播疾病专业</dict>
+				<dict code="1399">其他</dict>
+				<dict code="14">医疗美容科</dict>
+				<dict code="15">精神科</dict>
+				<dict code="1501">精神病专业</dict>
+				<dict code="1502">精神卫生专业</dict>
+				<dict code="1503">药物依赖专业</dict>
+				<dict code="1504">精神康复专业</dict>
+				<dict code="1505">社区防治专业</dict>
+				<dict code="1506">临床心理专业</dict>
+				<dict code="1507">司法精神专业</dict>
+				<dict code="1599">其他</dict>
+				<dict code="16">传染科</dict>
+				<dict code="1601">肠道传染病专业</dict>
+				<dict code="1602">呼吸道传染病专业</dict>
+				<dict code="1603">肝炎专业</dict>
+				<dict code="1604">虫媒传染病专业</dict>
+				<dict code="1605">动物源性传染病专业</dict>
+				<dict code="1606">蠕虫病专业</dict>
+				<dict code="1699">其它</dict>
+				<dict code="17">结核病科</dict>
+				<dict code="18">地方病科</dict>
+				<dict code="19">肿瘤科</dict>
+				<dict code="20">急诊医学科</dict>
+				<dict code="2001">重症监护(急诊)</dict>
+				<dict code="21">康复医学科</dict>
+				<dict code="22">运动医学科</dict>
+				<dict code="23">职业病科</dict>
+				<dict code="2301">职业中毒专业</dict>
+				<dict code="2302">尘肺专业</dict>
+				<dict code="2303">放射病专业</dict>
+				<dict code="2304">物理因素损伤专业</dict>
+				<dict code="2305">职业健康监护专业</dict>
+				<dict code="2399">其他</dict>
+				<dict code="24">临终关怀科</dict>
+				<dict code="25">特种医学与军事医学科</dict>
+				<dict code="26">麻醉科</dict>
+				<dict code="30">医学检验科</dict>
+				<dict code="3001">临床体液、血液专业</dict>
+				<dict code="3002">临床微生物学专业</dict>
+				<dict code="3003">临床生化检验专业</dict>
+				<dict code="3004">临床免疫、血清学专业</dict>
+				<dict code="3099">其他</dict>
+				<dict code="31">病理科</dict>
+				<dict code="32">医学影像科</dict>
+				<dict code="3201">X线诊断专业</dict>
+				<dict code="3202">CT诊断专业</dict>
+				<dict code="3203">磁共振成像诊断专业</dict>
+				<dict code="3204">核医学专业</dict>
+				<dict code="3205">超声诊断专业</dict>
+				<dict code="3206">心电诊断专业</dict>
+				<dict code="3207">脑电及脑血流图诊断专业</dict>
+				<dict code="3208">神经肌肉电图专业</dict>
+				<dict code="3209">介入放射学专业</dict>
+				<dict code="3210">放射治疗专业</dict>
+				<dict code="3299">其他</dict>
+				<dict code="50">中医科</dict>
+				<dict code="5001">内科专业</dict>
+				<dict code="5002">外科专业</dict>
+				<dict code="5003">妇产科专业</dict>
+				<dict code="5004">儿科专业</dict>
+				<dict code="5005">皮肤科专业</dict>
+				<dict code="5006">眼科专业</dict>
+				<dict code="5007">耳鼻咽喉科专业</dict>
+				<dict code="5008">口腔科专业</dict>
+				<dict code="5009">肿瘤科专业</dict>
+				<dict code="5010">骨伤科专业</dict>
+				<dict code="5011">肛肠科专业</dict>
+				<dict code="5012">老年病科专业</dict>
+				<dict code="5013">针灸科专业</dict>
+				<dict code="5014">推拿科专业</dict>
+				<dict code="5015">康复医学专业</dict>
+				<dict code="5016">急诊科专业</dict>
+				<dict code="5017">预防保健科专业</dict>
+				<dict code="5099">其他</dict>
+				<dict code="51">民族医学科</dict>
+				<dict code="5101">维吾尔医学</dict>
+				<dict code="5102">藏医学</dict>
+				<dict code="5103">蒙医学</dict>
+				<dict code="5104">彝医学</dict>
+				<dict code="5105">傣医学</dict>
+				<dict code="5199">其他</dict>
+				<dict code="52">中西医结合科</dict>
+				<dict code="61">重症监护室(综合)</dict>
+				<dict code="79">其它</dict>
+				<dict code="99">管理科室</dict>
+				<dict code="9901">感染(管理)科</dict>
+				<dict code="1">预防保健科</dict>
+				<dict code="2">全科医疗科</dict>
+				<dict code="3">内科</dict>
+				<dict code="301">呼吸内科专业</dict>
+				<dict code="302">消化内科专业</dict>
+				<dict code="303">神经内科专业</dict>
+				<dict code="304">心血管内科专业</dict>
+				<dict code="305">血液内科专业</dict>
+				<dict code="306">肾病学专业</dict>
+				<dict code="307">内分泌专业</dict>
+				<dict code="308">免疫学专业</dict>
+				<dict code="309">变态反应专业</dict>
+				<dict code="310">老年病专业</dict>
+				<dict code="399">其他</dict>
+				<dict code="312">重症监护(内科)</dict>
+				<dict code="4">外科</dict>
+				<dict code="401">普通外科专业</dict>
+				<dict code="402">神经外科专业</dict>
+				<dict code="403">骨科专业</dict>
+				<dict code="404">泌尿外科专业</dict>
+				<dict code="405">胸外科专业</dict>
+				<dict code="406">心脏大血管外科专业</dict>
+				<dict code="407">烧伤科专业</dict>
+				<dict code="408">整形外科专业</dict>
+				<dict code="499">其他</dict>
+				<dict code="410">重症监护(外科)</dict>
+				<dict code="5">妇产科</dict>
+				<dict code="501">妇科专业</dict>
+				<dict code="502">产科专业</dict>
+				<dict code="503">计划生育专业</dict>
+				<dict code="504">优生学专业</dict>
+				<dict code="505">生殖健康与不孕症专业</dict>
+				<dict code="599">其他</dict>
+				<dict code="6">妇女保健科</dict>
+				<dict code="601">青春期保健专业</dict>
+				<dict code="602">围产期保健专业</dict>
+				<dict code="603">更年期保健专业</dict>
+				<dict code="604">妇女心理卫生专业</dict>
+				<dict code="605">妇女营养专业</dict>
+				<dict code="699">其他</dict>
+				<dict code="7">儿科</dict>
+				<dict code="701">新生儿专业</dict>
+				<dict code="702">小儿传染病专业</dict>
+				<dict code="703">小儿消化专业</dict>
+				<dict code="704">小儿呼吸专业</dict>
+				<dict code="705">小儿心脏病专业</dict>
+				<dict code="706">小儿肾病专业</dict>
+				<dict code="707">小儿血液病专业</dict>
+				<dict code="708">小儿神经病学专业</dict>
+				<dict code="709">小儿内分泌专业</dict>
+				<dict code="710">小儿遗传病专业</dict>
+				<dict code="711">小儿免疫专业</dict>
+				<dict code="799">其他</dict>
+				<dict code="8">小儿外科</dict>
+				<dict code="801">小儿普通外科专业</dict>
+				<dict code="802">小儿骨科专业</dict>
+				<dict code="803">小儿泌尿外科专业</dict>
+				<dict code="804">小儿胸心外科专业</dict>
+				<dict code="805">小儿神经外科专业</dict>
+				<dict code="899">其他</dict>
+				<dict code="9">儿童保健科</dict>
+				<dict code="901">儿童生长发育专业</dict>
+				<dict code="902">儿童营养专业</dict>
+				<dict code="903">儿童心理卫生专业</dict>
+				<dict code="904">儿童五官保健专业</dict>
+				<dict code="905">儿童康复专业</dict>
+				<dict code="999">其他</dict>
+				<dict code="10">眼科</dict>
+				<dict code="11">耳鼻咽喉科</dict>
+				<dict code="1101">耳科专业</dict>
+			</data>
+			<extendData />
+		</bodyItem>
+		<bodyItem itemId="S201-04">
+			<data>
+				<dict code="1">综合定点</dict>
+				<dict code="2">门诊定点</dict>
+				<dict code="3">住院定点</dict>
+				<dict code="9">其他定点</dict>
+			</data>
+			<extendData />
+			</bodyItem>
+			<bodyItem itemId="S201-05">
+				<data>
+					<dict code="6">村集体</dict>
+					<dict code="5">扶贫办</dict>
+					<dict code="4">计生局</dict>
+					<dict code="1">乡政府</dict>
+					<dict code="2">县（区、县级市）民政</dict>
+					<dict code="3">县（区、县级市）财政</dict>
+					<dict code="9">其他</dict>
+				</data>
+				<extendData />
+			</bodyItem>
+			<bodyItem itemId="S201-06">
+				<data>
+					<dict code="1">村卫生室</dict>
+					<dict code="2">乡镇卫生院</dict>
+					<dict code="3">县级医疗机构</dict>
+					<dict code="4">地市医疗机构</dict>
+					<dict code="5">省级及以上医疗机构</dict>
+					<dict code="9">其他医疗机构</dict>
+				</data>
+				<extendData />
+			</bodyItem>
+			<bodyItem itemId="S301-01">
+				<data />
+				<extendData />
+			</bodyItem>
+			<bodyItem itemId="S301-02">
+				<data>
+					<dict code="1">危</dict>
+					<dict code="2">急</dict>
+					<dict code="3">一般</dict>
+					<dict code="9">其他</dict>
+				</data>
+				<extendData />
+			</bodyItem>
+			<bodyItem itemId="S301-03">
+				<data>
+					<dict code="1">治愈</dict>
+					<dict code="2">好转</dict>
+					<dict code="3">未愈</dict>
+					<dict code="4">死亡</dict>
+					<dict code="9">其他</dict>
+				</data>
+				<extendData />
+			</bodyItem>
+			<bodyItem itemId="S301-04">
+				<data />
+				<extendData />
+			</bodyItem>
+			<bodyItem itemId="S301-05">
+				<data>
+					<dict code="1">门诊</dict>
+					<dict code="2">住院</dict>
+					<dict code="3">体格检查</dict>
+					<dict code="4">正常分娩住院</dict>
+					<dict code="9">其他</dict>
+				</data>
+				<extendData />
+			</bodyItem>
+			<bodyItem itemId="S301-06">
+				<data>
+					<dict code="11">普通门诊</dict>
+					<dict code="12">特殊病种大额门诊</dict>
+					<dict code="13">体格检查</dict>
+					<dict code="21">普通住院</dict>
+					<dict code="22">正常分娩住院（定额补偿）</dict>
+					<dict code="99">其他</dict>
+				</data>
+				<extendData />
+			</bodyItem>
+			<bodyItem itemId="S301-07">
+				<data>
+					<dict code="1">新参加</dict>
+					<dict code="2">曾经参加</dict>
+					<dict code="3">连续参加</dict>
+					<dict code="9">其他</dict>
+				</data>
+				<extendData />
+			</bodyItem>
+			<bodyItem itemId="S301-08">
+				<data />
+				<extendData />
+			</bodyItem>
+			<bodyItem itemId="S301-09">
+				<data>
+					<dict code="1">统筹基金（含风险基金）帐户</dict>
+					<dict code="3">风险基金帐户</dict>
+					<dict code="2">家庭帐户</dict>
+					<dict code="9">其他</dict>
+				</data>
+				<extendData />
+			</bodyItem>
+			<bodyItem itemId="S301-10">
+				<data>
+					<dict code="1">已审核</dict>
+					<dict code="2">未审核</dict>
+					<dict code="3">驳回</dict>
+					<dict code="9">其他</dict>
+				</data>
+				<extendData />
+			</bodyItem>
+			<bodyItem itemId="S601-01">
+				<data>
+					<dict code="4001">农民个人缴费收入</dict>
+					<dict code="4002">农村医疗救助资助收入</dict>
+					<dict code="4003">集体扶持收入</dict>
+					<dict code="4004">政府资助收入</dict>
+					<dict code="4005">利息收入</dict>
+					<dict code="4006">其他收入</dict>
+					<dict code="5001">统筹基金支出</dict>
+					<dict code="5002">家庭账户基金支出</dict>
+					<dict code="1001">现金</dict>
+					<dict code="1002">财政专户存款</dict>
+					<dict code="1003">收入户存款</dict>
+					<dict code="1004">支出户存款</dict>
+					<dict code="1101">暂付款</dict>
+					<dict code="1201">缴存省级风险基金</dict>
+					<dict code="2001">暂收款</dict>
+					<dict code="3001">统筹基金</dict>
+					<dict code="3002">家庭账户基金</dict>
+				</data>
+				<extendData />
+			</bodyItem>
+			<bodyItem itemId="S701-01">
+				<data>
+					<dict code="1">是</dict>
+					<dict code="2">否</dict>
+				</data>
+				<extendData />
+			</bodyItem>
+			<bodyItem itemId="S701-02">
+				<data>
+					<dict code="0">随机报</dict>
+					<dict code="1">日报</dict>
+					<dict code="2">周报</dict>
+					<dict code="3">旬报</dict>
+					<dict code="4">月报</dict>
+					<dict code="5">季报</dict>
+					<dict code="6">年报</dict>
+					<dict code="9">多年报</dict>
+				</data>
+				<extendData />
+			</bodyItem>
+			<bodyItem itemId="N801-01">
+				<data>
+					<dict code="1">一级</dict>
+					<dict code="2">二级甲等</dict>
+					<dict code="3">二级乙等</dict>
+					<dict code="4">三级甲等</dict>
+					<dict code="5">三级乙等</dict>
+					<dict code="6">三级特等</dict>
+				</data>
+				<extendData />
+			</bodyItem>
+			<bodyItem itemId="N801-02">
+				<data>
+					<dict code="1">本地农业户口</dict>
+					<dict code="2">本地非农业户口</dict>
+					<dict code="3">非本地农业户口</dict>
+					<dict code="4">非本地农业户口居住一年以上</dict>
+					<dict code="5">非本地非农业户口居住一年以上</dict>
+					<dict code="9">其他</dict>
+				</data>
+				<extendData />
+			</bodyItem>
+			<bodyItem itemId="N801-03">
+				<data>
+					<dict code="1">垫付制</dict>
+					<dict code="2">预付制</dict>
+				</data>
+				<extendData />
+			</bodyItem>
+			<bodyItem itemId="N801-04">
+				<data>
+					<dict code="0">省</dict>
+					<dict code="1">县（区、县级市）</dict>
+					<dict code="2">乡镇</dict>
+					<dict code="3">村</dict>
+					<dict code="4">组</dict>
+					<dict code="9">其他</dict>
+				</data>
+				<extendData />
+			</bodyItem>
+			<bodyItem itemId="N801-05">
+				<data>
+					<dict code="1">启用</dict>
+					<dict code="2">挂失</dict>
+					<dict code="3">停用</dict>
+				</data>
+				<extendData />
+			</bodyItem>
+			<bodyItem itemId="N801-06">
+				<data>
+					<dict code="0">正常</dict>
+					<dict code="1">外出</dict>
+				</data>
+				<extendData />
+			</bodyItem>
+			<bodyItem itemId="N801-07">
+				<data>
+					<dict code="0">药品</dict>
+					<dict code="1">诊疗</dict>
+					<dict code="2">卫生材料</dict>
+					<dict code="9">其他</dict>
+				</data>
+				<extendData />
+			</bodyItem>
+		</body>
+	</NDEML>

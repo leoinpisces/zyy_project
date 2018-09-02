@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NDEML templateVersion="1.0">
+	<header>
+		<result>
+			<success>1</success>
+			<message>成功</message></result>
+			<exportDate>2017-09-21 16:18:48</exportDate>
+			<dataType>hospitalListDown</dataType>
+			<sourceCode ref="00">国家平台</sourceCode>
+			<targetCode ref="450384582">重庆市中医院</targetCode>
+			<sourceType ref="1">国家数据中心</sourceType>
+	</header>
+	<body>
+		<bodyItem itemId="450405742">
+			<data>
+				<hospitalID>450405742</hospitalID>
+				<hospitalName>重庆医科大学附属儿童医院</hospitalName>
+				<hospitalAreaID>500103</hospitalAreaID>
+				<hospitalLevel>30</hospitalLevel>
+				<hospitalAddress>重庆市渝中区中山二路136号</hospitalAddress>
+				<contacter></contacter>
+				<phone></phone>
+			</data>
+			<extendData />
+		</bodyItem>
+		<bodyItem itemId="5020160901171033167">
+			<data>
+				<hospitalID>5020160901171033167</hospitalID>
+				<hospitalName>重庆医科大学附属一院</hospitalName>
+				<hospitalAreaID>500103</hospitalAreaID>
+				<hospitalLevel>31</hospitalLevel>
+				<hospitalAddress>重庆市渝中区袁家岗友谊路1号</hospitalAddress>
+				<contacter></contacter>
+				<phone></phone>
+			</data>
+			<extendData />
+		</bodyItem>
+		<bodyItem itemId="5020170118152518141">
+			<data>
+				<hospitalID>5020170118152518141</hospitalID>
+				<hospitalName>重庆医科大学附属永川医院</hospitalName>
+				<hospitalAreaID>500118</hospitalAreaID>
+				<hospitalLevel>30</hospitalLevel>
+				<hospitalAddress>重庆市永川区萱花路439号</hospitalAddress>
+				<contacter></contacter>
+				<phone></phone>
+			</data>
+			<extendData />
+		</bodyItem>
+		<bodyItem itemId="450384582">
+			<data>
+				<hospitalID>450384582</hospitalID>
+				<hospitalName>重庆市中医院</hospitalName>
+				<hospitalAreaID>500000</hospitalAreaID>
+				<hospitalLevel>30</hospitalLevel>
+				<hospitalAddress>重庆市</hospitalAddress>
+				<contacter></contacter>
+				<phone></phone>
+			</data>
+			<extendData />
+		</bodyItem>
+		<bodyItem itemId="450388540">
+			<data>
+				<hospitalID>450388540</hospitalID>
+				<hospitalName>重庆市第五人民医院</hospitalName>
+				<hospitalAreaID>500000</hospitalAreaID>
+				<hospitalLevel>30</hospitalLevel>
+				<hospitalAddress>重庆市</hospitalAddress>
+				<contacter></contacter>
+				<phone></phone>
+			</data>
+			<extendData />
+		</bodyItem>
+		<bodyItem itemId="450480566">
+			<data>
+				<hospitalID>450480566</hospitalID>
+				<hospitalName>重庆市长寿区人民医院</hospitalName>
+				<hospitalAreaID>500000</hospitalAreaID>
+				<hospitalLevel>30</hospitalLevel>
+				<hospitalAddress>重庆市</hospitalAddress>
+				<contacter></contacter>
+				<phone></phone>
+			</data>
+			<extendData />
+		</bodyItem>
+			<bodyItem itemId="90287951X">
+				<data>
+					<hospitalID>90287951X</hospitalID>
+					<hospitalName>重庆市第四人民医院</hospitalName>
+					<hospitalAreaID>500000</hospitalAreaID>
+					<hospitalLevel>30</hospitalLevel>
+					<hospitalAddress>重庆市</hospitalAddress>
+					<contacter></contacter>
+					<phone></phone>
+				</data>
+				<extendData />
+			</bodyItem>
+	</body>
+</NDEML>
